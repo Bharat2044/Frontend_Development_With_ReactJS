@@ -1,0 +1,21 @@
+$ cd ~
+
+$ mkdir Assignment3
+
+$ cd ./Assignment3/
+
+$ mkdir FolderC
+
+$ cd ../
+
+$ cd ./Assignment3/FolderC/
+
+$ pwd
+/c/Users/bk628/Assignment3/FolderC
+
+$ touch notes.txt
+
+$ ls
+notes.txt
+
+$ cat notes.txt
