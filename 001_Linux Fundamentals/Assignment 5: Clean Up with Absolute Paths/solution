@@ -1,0 +1,19 @@
+$ cd ~
+
+$ mkdir Assignment5
+
+$ cd ./Assignment5/
+
+$ mkdir FolderF
+
+$ touch ./FolderF/important.txt
+
+$ rm ./FolderF/important.txt
+
+$ ls ./FolderF/
+
+$ cd ~
+
+$ rm -rf ./Assignment5/
+
+$ ls
