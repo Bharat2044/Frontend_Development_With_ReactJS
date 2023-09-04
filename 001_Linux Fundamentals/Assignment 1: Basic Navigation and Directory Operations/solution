@@ -1,0 +1,21 @@
+$ cd ~
+
+$ mkdir Assignment1
+
+$ cd ./Assignment1/
+
+$ mkdir FolderA
+
+$ pwd
+/c/Users/bk628/Assignment1
+
+$ touch ./FolderA/file1.txt
+
+$ cat ./FolderA/file1.txt
+
+$ cd ~
+
+$ rm ./Assignment1/FolderA/file1.txt
+$ rmdir ./Assignment1/FolderA
+
+$ ls ./Assignment1
