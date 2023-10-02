@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio in HTML</title>
+</head>
+<body>
+    <h1>Audio in HTML</h1>
+        <!-- audio -->
+        <h3>1. Audio Without Controls - Default</h3>
+        <audio src="./sample-audio.mp3">Audio is not supported by your browsers.</audio><br>
+
+        <!-- audio with controls -->
+        <h3>2. Audio With Controls</h3>
+        <audio src="./sample-audio.mp3" controls>Audio is not supported by your browsers.</audio><br>
+
+        <!-- audio with controls and autoplay and mute -->
+        <h3>3. Audio With Controls, Autoplay and Mute</h3>
+        <audio src="./sample-audio.mp3" controls autoplay muted>Audio is not supported by your browsers.</audio><br>
+
+        <!-- audio using source tag -->
+        <h3>4. Audio With Controls, Autoplay and Mute Using source Tag</h3>
+        <audio controls muted autoplay>
+            <source src="./sample-audio.mp3" type="audio/mp3" />
+            <source src="./sample-audio.mp3" type="audio/mp3" />
+            Audio is not supported by your browsers.
+        </audio>
+</body>
+</html>
