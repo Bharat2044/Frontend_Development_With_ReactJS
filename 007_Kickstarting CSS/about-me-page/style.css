@@ -1,0 +1,32 @@
+/* universal selector */
+* {
+    color: white;
+    background-color: #262626;
+}
+
+/* type/tag/element selector */
+h4 {
+    font-size: 28px;
+    color: rgb(148, 36, 148);
+}
+
+/* grouping selector */
+p, span {
+    font-size: 20px;
+}
+
+/* id selector */
+#head-text {
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: goldenrod;
+    /* text-decoration: underline solid goldenrod; */
+    
+}
+
+/* class selector */
+.mid-text {
+    font-size: medium;
+    font-weight: bold;
+}
