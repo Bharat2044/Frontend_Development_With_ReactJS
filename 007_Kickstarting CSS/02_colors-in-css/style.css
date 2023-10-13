@@ -1,0 +1,12 @@
+h1 {
+    background-color:DodgerBlue;
+}
+
+p {
+    background-color:#ff6347;
+}
+
+div {
+    color: rgb(255, 215, 0);
+    background-color: hsl(0, 0%, 25%);
+}
