@@ -1,0 +1,44 @@
+h2.z {
+    color: purple;
+    background-color: #808080;
+}
+
+/* ::first-line pseudo-element selector*/
+p#a::first-line {
+    color: white;
+    background-color: black;
+    font-weight: 900;
+}
+
+/* ::first-letter pseudo-element selector */
+p#b::first-letter {
+    color: green;
+    background-color: blue;
+    font-size: 25px;
+}
+
+/* ::after pseudo-element selector */
+p#c::before{
+    content: "This is some extre content before paragraph. ";
+    color: red;
+    background-color: bisque;
+}
+
+/* ::before pseudo-element selector */
+p#d::after{
+    content: " This is some extre after paragraph.";
+    color: red;
+    background-color: rgb(60, 199, 33);
+}
+
+/* ::marker pseudo-element selector */
+li::marker { 
+    color: red;
+    font-size: 30px;
+}
+
+/* ::selection pseudo-element selector */
+p#f::selection{
+    background-color: black;
+    color: yellow;
+}
