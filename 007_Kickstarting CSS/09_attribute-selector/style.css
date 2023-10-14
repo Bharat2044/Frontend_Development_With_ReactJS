@@ -1,0 +1,29 @@
+/* [attribute] Selector */
+.a > a[target] {
+    background-color: yellow;
+}
+
+/* [attribute="value"] Selector */
+.b > a[target=_blank] {
+    background-color: pink;
+}
+
+/* [attribute~="value"] Selector */
+.c > [title~=click] {
+    background-color: red;
+}
+
+/* [attribute|="value"] Selector */
+.d > [class|=top-text] {
+    background:#6EC72D;
+}
+
+/* [attribute^="value"] Selector */
+.e > [class^="top"] {
+    background:#6A1B4D;
+}
+
+/* [attribute$="value"] Selector */
+.f > [class$="test"] {
+    background: #CAD5E2;
+}
