@@ -10,7 +10,7 @@ h4 {
     color: rgb(148, 36, 148);
 }
 
-/* grouping selector */
+/* grouping selector/selector list */
 p, span {
     font-size: 20px;
 }
@@ -20,13 +20,90 @@ p, span {
     font-size: 40px;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: goldenrod;
-    /* text-decoration: underline solid goldenrod; */
-    
+    text-decoration-color: rgb(131, 98, 15);
+    /* text-decoration: underline solid goldenrod; */    
 }
 
 /* class selector */
 .mid-text {
     font-size: medium;
     font-weight: bold;
+}
+
+/* attribute selector */
+input[disabled] {
+    background-color: #b1a2a2;
+}
+
+/* descendent combinator */
+h2 span {
+    color: cadetblue;
+}
+div .extra {
+    text-decoration: underline;
+    font-size: 14px;
+    color: bisque;
+}
+
+/* child combinator */
+h2 > span {
+    color: aqua;
+}
+
+/* general sibling combinator */
+h2 ~ h4 {
+    color: rgb(226, 43, 70);
+}
+
+/* adjancent sibling combinator */
+h4 + p {
+    color: aquamarine;
+    font-size: 15px;
+}
+
+/* pseudo-class selector */
+a:link {                    /* unvisited link */
+    color: #f7fb07;
+}
+a:visited {                 /* visited link */
+  color: #00FF00;
+}
+a:hover {                   /* mouse over link */
+  color: #FF00FF;
+  text-decoration: none;
+}
+a:active {                  /* selected link */
+  color: #0000FF;
+}
+div :first-child {
+    background-color: green;
+}
+li:first-child {
+    border: 1px solid greenyellow;
+}
+li:nth-child(even) {
+    border: 1px solid orange;
+}
+
+/* pseudo-element selector */
+#head-text::first-letter {
+    color: gold;
+    font-size: 60px;
+}
+#random-text::first-line {
+    color: rgb(34, 132, 178);
+}
+div::before {
+    content: '...';
+}
+div::after {
+    content: '...';
+}
+li::marker {
+    color: rgb(8, 0, 255);
+    font-size: 23px;
+}
+::selection {
+    color: red;
+    background: yellow;
 }
