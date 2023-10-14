@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo-Class Selector</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Pseudo-Class Selector in CSS</h1>
+
+        <h2 class="z">1. :hover pseudo-class</h2>
+        <p id="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt aspernatur reiciendis cupiditate vitae enim iure error ullam quos non.</p>
+        
+        <h2 class="z">2. :focus pseudo-class</h2>
+        Enter Name: <input type="text" id="focus">
+
+        <h2 class="z">3. :link pseudo-class</h2>
+        <a href="https://www.google.com" target="_blank" id="link">Google</a>
+
+        <h2 class="z">4. :visited pseudo-class</h2>
+        <a href="https://www.google.com" target="_blank" id="visited">Google</a>
+
+        <h2 class="z">5. :active pseudo-class</h2>
+        <a href="https://www.google.com" target="_blank" id="active">Google</a>
+
+        <h2 class="z">6. :first-child pseudo-class</h2>
+        <ul>
+            <li class="first">First</li>
+            <li class="first">Second</li>
+            <li class="first">Third</li>
+            <li class="first">Fourth</li>
+        </ul>
+
+        <h2 class="z">7. :first-child pseudo-class</h2>
+        <ul>
+            <li class="last">First</li>
+            <li class="last">Second</li>
+            <li class="last">Third</li>
+            <li class="last">Fourth</li>
+        </ul>
+
+        <h2 class="z">8. :nth-child pseudo-class</h2>
+        <ul>
+            <li class="nth">First</li>
+            <li class="nth">Second</li>
+            <li class="nth">Third</li>
+            <li class="nth">Fourth</li>
+        </ul>
+    
+        <hr>
+        <p><b><a href="https://www.google.com" target="_blank" id="id">This is a link</a></b></p>
+        <p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+        <p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+    </body>
+</html>
