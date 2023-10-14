@@ -1,0 +1,68 @@
+h2.z {
+    color: purple;
+    background-color: #808080;
+}
+
+/* :hover selector */
+p#hover:hover {    
+    color: white;
+    background-color: black;
+}
+
+/* :focus selector */
+input#focus:focus {
+    color: red;
+    background-color: rgb(36, 145, 45);
+    font-size: 20px;
+}
+
+/* :link selector */
+a#link:link {
+    color: red;
+}
+
+/* :visited selector */
+a#visited:link {
+    color:  black;
+}
+
+/* :active selector */
+a#active:link {
+    color:  blue;
+}
+
+/* :first-child selector */
+li.first:first-child {
+    color: aqua;
+    background-color: bisque;
+}
+
+/* :last-child selector */
+li.last:last-child {
+    color: blue;
+    background-color:red;
+}
+
+/* :nth-child selector*/
+li.nth:nth-child(even) {
+    color: chartreuse;
+    background-color: black;
+}
+
+/* For links */
+/* unvisited link */
+a#id:link {
+    color: red;
+}  
+/* visited link */
+a#id:visited {
+    color: black;
+}  
+/* mouse over link */
+a#id:hover {
+    color: hotpink;
+}  
+/* selected link */
+a#id:active {
+    color: blue;
+}
