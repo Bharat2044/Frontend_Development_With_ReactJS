@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head">Selectors in css</h1>
+    <h2>Attribute Selector</h2>
+    
+    <h2>1. [attribute] Selector</h2>
+        <div class="a">
+            <a href="https://www.google.com">google.com</a><br>
+            <a href="http://www.disney.com" target="_blank">disney.com</a><br>
+            <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a><br>
+        </div>
+        
+
+        <h2>2. [attribute="value"] Selector</h2>
+        <div class="b">
+            <a href="https://www.google.com">google.com</a><br>
+            <a href="http://www.disney.com" target="_blank">disney.com</a><br>
+            <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+        </div>
+        
+        <h2>3. [attribute~="value"] Selector</h2>
+        <div class="c">
+            <a href="https://www.google.com" title="click and go to google">google.com</a><br>
+            <a href="http://www.disney.com" target="_blank">disney.com</a><br>
+            <a href="http://www.wikipedia.org" title="click and go to wikipedia" target="_top">wikipedia.org</a>
+        </div>
+
+        <h2>4. [attribute|="value"] Selector</h2>
+        <div class="d">
+            <h1 class="top-header">Welcome</h1>
+            <p class="top-text">Hello world!</p>
+            <p class="topcontent">Are you learning CSS?</p>
+        </div>
+
+        <h2>5. [attribute^="value"] Selector</h2>
+        <div class="e">
+            <h1 class="top-header">Welcome</h1>
+            <p class="top-text">Hello world!</p>
+            <p class="topcontent">Are you learning CSS?</p>
+        </div>
+
+        <h2>6. [attribute$="value"] Selector</h2>
+        <div class="f">
+            <div class="first_test">The first div element.</div>
+            <div class="second">The second div element.</div>
+            <div class="my-test">The third div element.</div>
+            <p class="mytest">This is some text in a paragraph.</p>
+        </div>
+</body>
+</html>
