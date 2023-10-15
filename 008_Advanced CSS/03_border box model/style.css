@@ -1,0 +1,27 @@
+* {    
+    box-sizing: border-box;
+}
+
+#demo1 {
+    width: 200px;
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border: 5px solid red;
+
+    padding: 12px;
+    margin: 10px; 
+}
+
+#demo2 {
+    width: 200px;
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border: 5px solid rgb(30, 255, 0);
+
+    padding: 12px;
+    margin: 10px;
+}
