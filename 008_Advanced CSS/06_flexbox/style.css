@@ -12,6 +12,7 @@ html {
     /* flex-direction: row;
     flex-wrap: nowrap; */
     flex-flow: row nowrap;
+    
 }
 
 #parent div {
@@ -20,3 +21,6 @@ html {
     background-color: bisque;
     min-width: 100px;
 }
+
+
+
