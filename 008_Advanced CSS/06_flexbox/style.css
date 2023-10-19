@@ -6,21 +6,44 @@ html {
 }
 
 #parent {
+    height: 500px;
     border: 10px solid red;
     display: flex;
 
     /* flex-direction: row;
     flex-wrap: nowrap; */
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     
+    justify-content: center;  /* to arrange elements on main axis */
+    align-items: center;      /* to arrange elements on main axis */   
+    /* gap: 50px; */
+
+    align-content: space-evenly;       /* to arrange elements on main axis */ 
 }
 
 #parent div {
     border: 2px solid blue;
     padding: 20px;
     background-color: bisque;
-    min-width: 100px;
+
+    /* min-width: 100px; */
+    /* max-width: 200px; */
+    /* min-height: 80px; */
+    /* max-height: 100px; */
 }
 
+#child1 {
+    flex-basis: 50%;
+}
 
+#child3 {
+    flex-grow: 1;
+}
 
+#child4 {
+    flex-grow: 2;
+}
+
+#child6 {    
+    flex-shrink: 1;
+}
