@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+#grad2 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red, yellow, green);
+}
+
+#grad3 {
+    height: 200px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green);
+}
