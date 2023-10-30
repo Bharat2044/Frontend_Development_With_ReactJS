@@ -24,3 +24,6 @@ console.log(10 - false);
 console.log(10 - null);
 console.log(10 - undefined);
 console.log(10 - NaN);
+console.log(10 - 0xB);
+console.log(10 - 0b1);
+console.log(15 - 0o12);
