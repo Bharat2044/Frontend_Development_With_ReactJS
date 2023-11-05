@@ -1,0 +1,13 @@
+console.log(String("Hi"));
+console.log(String(5));
+console.log(String(+0));
+console.log(String(-0));
+console.log(String(+12));
+console.log(String(-12));
+console.log(String(NaN));
+console.log(String(true));
+console.log(String(false));
+console.log(String(undefined));
+console.log(String(null));
+console.log(String({x: 10}));
+console.log(String({x: 10, toString() {return 10;}}));
