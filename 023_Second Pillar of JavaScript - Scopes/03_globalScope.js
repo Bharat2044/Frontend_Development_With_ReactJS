@@ -10,3 +10,11 @@ function fun() {
 fun();
 
 console.log(name);
+
+
+console.log(x);
+
+{
+    var x = 10;
+}
+console.log(x);
