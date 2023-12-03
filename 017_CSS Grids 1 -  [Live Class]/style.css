@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: blue;
+}
+
+.grid-wrapper {
+    background-color: beige;
+    border: 1px solid red;
+
+    display: grid;
+
+    /* grid-template-columns: 5rem 5rem 5rem; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 5rem); */
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-template-rows: 5rem 5rem 5rem; */
+
+    /* grid-row-gap: 1rem;
+    grid-column-gap: 2rem; */
+    /* grid-gap: 1rem 2rem; */
+    row-gap: 1rem;
+    column-gap: 2rem;
+    /* gap: 1rem 2rem; */
+}
+
+.grid-wrapper > div {
+    padding: 3rem;
+    background-color: brown;
+}
+
+.item7 {
+    grid-column: span 2;
+}
+
+.item8 {
+    /* grid-column: span 3; */
+
+    /* grid-column-start: 2;
+    grid-column-end: 5; */
+    grid-column: 2/5;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
