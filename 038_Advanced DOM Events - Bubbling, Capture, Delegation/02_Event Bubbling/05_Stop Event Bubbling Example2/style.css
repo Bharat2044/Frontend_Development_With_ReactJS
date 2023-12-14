@@ -1,0 +1,23 @@
+.outer {
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    background-color: grey;
+}
+
+.outer img{
+    height: 100%;
+    width: 100%;
+}
+
+#btn {
+    padding: 8px 20px; 
+    font-size: 20px;
+    font-weight: 700;
+    color: purple;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
