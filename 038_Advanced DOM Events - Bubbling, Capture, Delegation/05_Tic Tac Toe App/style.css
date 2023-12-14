@@ -1,0 +1,27 @@
+#outer {
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner {
+    border: 1px solid red;
+    width: 130px;
+    height: 130px;
+    flex-basis: 33%;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    font-size: 40px;
+    font-weight: 800;
+    color: red;
+}
