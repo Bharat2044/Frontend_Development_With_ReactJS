@@ -12,7 +12,6 @@
 // console.log(binarySearch([1, 2, 3, 4, 6, 7, 8, 9, 12], 7));
 
 
-
 // destructuring with alias
 const {linearSearch: ls, binarySearch: bs} = require("./searching");    // named export
 
