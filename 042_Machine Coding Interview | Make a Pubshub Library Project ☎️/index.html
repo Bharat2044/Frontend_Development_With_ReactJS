@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pubshub Library</title>
+</head>
+<body>
+    
+    <button id="btn">Hello</button>
+    <button id="unsub">unsubscribe</button>
+
+    <div id="content"></div>
+    <div id="content1" style="background-color: aquamarine;"></div>
+
+    <script src="Pubsub.js"></script>
+    <script>
+
+        const pubsub = new Pubsub();
+
+        const unsubscribe1 = pubsub.subscribe('populate_content', (data) => {
+            const div = document.getElementById('content');
+
+            const newDiv = document.createElement('div');
+            newDiv.textContent = data.value;
+
+            div.appendChild(newDiv);
+        });
+
+        document.getElementById('unsub').addEventListener('click', unsubscribe1);
+
+        pubsub.subscribe('populate_content', (data) => {
+            const div = document.getElementById('content1');
+
+            const newDiv = document.createElement('div');
+            newDiv.textContent = data.value;
+
+            div.appendChild(newDiv);
+        });
+
+
+        document.getElementById('btn').addEventListener('click', () => {
+            pubsub.publish('populate_content', {value: 'some content'});
+        });
+
+    </script>
+</body>
+</html>
