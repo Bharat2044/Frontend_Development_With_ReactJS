@@ -1,3 +1,4 @@
+// CJS Module
 // const searchingFunctions = require("./searching");
 // console.log(searchingFunctions);
 // console.log(searchingFunctions.linearSearch([1, 5, 3, 12, 2, 8, 4], 12));
@@ -25,7 +26,7 @@
 // console.log(arr2);
 
 
-
+// ES Module
 import searchingAlgo from "./searching.js"
 console.log(searchingAlgo);
 console.log(searchingAlgo.linearSearch([1, 5, 3, 12, 2, 8, 4], 12));
