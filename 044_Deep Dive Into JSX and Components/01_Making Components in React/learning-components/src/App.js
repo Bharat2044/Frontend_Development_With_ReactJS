@@ -3,7 +3,7 @@ import DogTile from './DogTile';
 
 function App() {
   return (
-    <div className='first'>
+    <div>
       Welcome to learning ReactJs Components
 
       <DogTile />
