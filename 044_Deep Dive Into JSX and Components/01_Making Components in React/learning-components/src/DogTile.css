@@ -1,0 +1,9 @@
+.first, .second {
+    height: 400px;
+    width: 400px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
