@@ -3,12 +3,12 @@ import DogTile from './DogTile';
 
 function App() {
   return (
-    <div className='puppy'>
+    <section className='puppy'>
       <DogTile />
       <DogTile />
       <DogTile />
       <DogTile />
-    </div>
+    </section>
   );
 }
 
