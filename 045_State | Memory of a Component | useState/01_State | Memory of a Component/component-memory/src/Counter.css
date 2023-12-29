@@ -1,0 +1,15 @@
+button, .counterValue {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  
