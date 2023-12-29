@@ -6,12 +6,12 @@ function Counter() {
     const [count, setCount] = useState(10);
 
     function updateX() {
-        console.log("Updateing X", x);
-        x += 1
+        console.log("Updating X");
+        x += 1;
     }
 
     function updateCount() {
-        console.log("Updateing Count", count);
+        console.log("Updating Count");
         setCount(count + 1)
     }
 
