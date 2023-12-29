@@ -1,0 +1,23 @@
+.counter {
+  height: fit-content;
+  width: fit-content;
+  margin: 50px;
+  border: 2px solid blue;
+  background-color: lightblue;
+}
+
+button, .counterValue, input {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+  
+button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+  
+  
