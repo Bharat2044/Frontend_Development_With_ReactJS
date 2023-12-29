@@ -1,3 +1,11 @@
+.counter {
+  height: fit-content;
+  width: fit-content;
+  margin: 10%;
+  border: 2px solid blue;
+  background-color: lightblue;
+}
+
 button, .counterValue {
     display: block;
     margin: 10px;
