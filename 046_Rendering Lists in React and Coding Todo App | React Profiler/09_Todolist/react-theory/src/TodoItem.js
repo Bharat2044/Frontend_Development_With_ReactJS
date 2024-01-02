@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./TodoItem.css";
 
-
 function TodoItem(props) { 
     const [isEditting, setIsEditting] = useState(false);
     const [todoData, setTodoData] = useState(props.todo.data);
