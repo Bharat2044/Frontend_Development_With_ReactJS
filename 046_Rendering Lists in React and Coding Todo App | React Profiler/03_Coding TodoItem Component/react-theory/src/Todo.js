@@ -4,7 +4,7 @@ function TodoItem(props) {
 }
 
 function Todo(props) {
-    const todoItems = props.todoList.map((todo, index) => <TodoItem key={todo.id} todo={todo} />);
+    const todoItems = props.todoList.map((todo) => <TodoItem todo={todo} />);
 
     return (
         <ul> {todoItems} </ul>
