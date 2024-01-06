@@ -1,0 +1,32 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.turn-highlight {
+    color: white;
+}
+
+.winner {
+    color: white;
+}
+
+.grid-wrapper {
+    max-width: 400px;
+}
+
+.reset {
+    padding: 1rem;
+    color: white;
+    background-color: var(--resetGreen);
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
