@@ -1,5 +1,5 @@
 // import Raact from 'react';
-// import RaactDOM from 'react-dom/cliend';
+// import RaactDOM from 'react-dom/client';
 
 const Custom = () => {
     return (
